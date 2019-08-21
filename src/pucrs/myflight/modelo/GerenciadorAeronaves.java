@@ -7,4 +7,6 @@ public class GerenciadorAeronaves {
     public GerenciadorAeronaves(){
         aeronaves = new ArrayList<>();
     }
+
+    
 }
