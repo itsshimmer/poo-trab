@@ -9,7 +9,7 @@ public class GerenciadorCias {
 		empresas = new ArrayList<>();
 	}
 
-	public void inserir(String cod, String nome) {
+	public void inserir() {
 		empresas.add(new CiaAerea(cod, nome));
 	}
 
