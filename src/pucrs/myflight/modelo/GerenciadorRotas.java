@@ -8,15 +8,15 @@ public class GerenciadorRotas {
         rotas = new ArrayList<>();
     }
 
-    public void inserir(Rota rot) {
-        rotas.add(rot);
+    public void adicionar(Rota rota) {
+        rotas.add(rota);
     }
 
-    public ArrayList<Rota> getTodos() {
+    public ArrayList<Rota> listarTodas() {
         return rotas;
     }
 
-    public Rota pesquisarOrigem(String origem) {
+    public Rota buscarPorOrigem(String origem) {
         for (Rota rot: rotas) {
             if(rot.getOrigem().getNome().compareTo(origem)==0) {
 
@@ -26,7 +26,7 @@ public class GerenciadorRotas {
         return null;
     }
 
-    public Rota pesquisarDestino(String destino) {
+    public Rota buscarPorDestino(String destino) {
         for (Rota rot: rotas) {
             if(rot.getDestino().getNome().compareTo(destino)==0) {
                 return rot;

@@ -10,15 +10,15 @@ public class GerenciadorVoos {
     }
 
 
-    public void inserir_aeroporto(Voo voo) {
+    public void adicionar(Voo voo) {
         voos.add(voo);
     }
 
-    public ArrayList<Voo> get_voos() {
+    public ArrayList<Voo> listarTodos() {
         return voos;
     }
 
-    public Voo buscar_datas(LocalDateTime data) {
+    public Voo buscarData(LocalDateTime data) {
         for (Voo voo : voos) {
             if (voo.getDatahora().compareTo(data) == 0) {
                 return voo;
