@@ -18,24 +18,36 @@ public class Voo {
 		this.duracao = duracao;
 		this.status = Status.CONFIRMADO; // default é confirmado
 	}
-	
-	public Rota getRota() {
-		return rota;
-	}
-	
+
 	public LocalDateTime getDatahora() {
 		return datahora;
 	}
-	
+
+	public void setDatahora(LocalDateTime datahora) {
+		this.datahora = datahora;
+	}
+
 	public Duration getDuracao() {
 		return duracao;
 	}
-	
+
+	public void setDuracao(Duration duracao) {
+		this.duracao = duracao;
+	}
+
+	public Rota getRota() {
+		return rota;
+	}
+
+	public void setRota(Rota rota) {
+		this.rota = rota;
+	}
+
 	public Status getStatus() {
 		return status;
 	}
-	
-	public void setStatus(Status novo) {
-		this.status = novo;
+
+	public void setStatus(Status status) {
+		this.status = status;
 	}
 }

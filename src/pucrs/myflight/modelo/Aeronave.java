@@ -10,16 +10,16 @@ public class Aeronave {
 		this.descricao = descricao;
 		this.capacidade = capacidade;
 	}
-	
+
 	public String getCodigo() {
 		return codigo;
 	}
-	
+
 	public String getDescricao() {
 		return descricao;
 	}
 
-	public int getCapacidade(){
+	public int getCapacidade() {
 		return capacidade;
 	}
 }

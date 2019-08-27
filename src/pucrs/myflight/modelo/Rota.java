@@ -11,21 +11,37 @@ public class Rota {
 		this.origem = origem;
 		this.destino = destino;
 		this.aeronave = aeronave;		
-	}	
-	
+	}
+
 	public CiaAerea getCia() {
 		return cia;
 	}
-	
-	public Aeroporto getDestino() {
-		return destino;
+
+	public void setCia(CiaAerea cia) {
+		this.cia = cia;
 	}
-	
+
 	public Aeroporto getOrigem() {
 		return origem;
 	}
-	
+
+	public void setOrigem(Aeroporto origem) {
+		this.origem = origem;
+	}
+
+	public Aeroporto getDestino() {
+		return destino;
+	}
+
+	public void setDestino(Aeroporto destino) {
+		this.destino = destino;
+	}
+
 	public Aeronave getAeronave() {
 		return aeronave;
+	}
+
+	public void setAeronave(Aeronave aeronave) {
+		this.aeronave = aeronave;
 	}
 }

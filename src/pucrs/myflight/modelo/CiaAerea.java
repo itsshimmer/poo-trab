@@ -8,12 +8,12 @@ public class CiaAerea {
 		this.codigo = codigo;
 		this.nome = nome;
 	}
-	
+
 	public String getCodigo() {
 		return codigo;
 	}
-	
+
 	public String getNome() {
 		return nome;
-	}	
+	}
 }
