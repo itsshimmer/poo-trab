@@ -1,5 +1,4 @@
 package pucrs.myflight.modelo;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -15,7 +14,7 @@ public class GerenciadorVoos {
         voos.add(voo);
     }
 
-    public ArrayList<Voo> get_aero() {
+    public ArrayList<Voo> get_voos() {
         return voos;
     }
 

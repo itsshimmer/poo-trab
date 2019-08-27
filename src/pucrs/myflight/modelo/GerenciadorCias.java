@@ -17,13 +17,22 @@ public class GerenciadorCias {
 		empresas.add(cia);
 	}
 
-	public ArrayList<CiaAerea> getCias() {
+	public ArrayList<CiaAerea> getTodos() {
 		return empresas;
 	}
 
-	public CiaAerea pesquisar(String codigo) {
+	public CiaAerea pesquisarCodigo(String codigo) {
 		for (CiaAerea cia: empresas) {
 			if(cia.getCodigo().compareTo(codigo)==0) {
+				return cia;
+			}
+		}
+		return null;
+	}
+
+	public CiaAerea pesquisarNome(String nome) {
+		for (CiaAerea cia: empresas) {
+			if(cia.getNome().compareTo(nome)==0) {
 				return cia;
 			}
 		}

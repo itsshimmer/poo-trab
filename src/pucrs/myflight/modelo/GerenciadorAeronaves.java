@@ -8,15 +8,15 @@ public class GerenciadorAeronaves {
         aeronaves = new ArrayList<>();
     }
 
-    public void inserir_aeroporto(Aeronave aero) {
+    public void inserir(Aeronave aero) {
         aeronaves.add(aero);
     }
 
-    public ArrayList<Aeronave> get_aero() {
+    public ArrayList<Aeronave> getTodos() {
         return aeronaves;
     }
 
-    public Aeronave pesquisar(String codigo) {
+    public Aeronave pesquisarCodigo(String codigo) {
         for (Aeronave aero: aeronaves) {
             if(aero.getCodigo().compareTo(codigo)==0) {
                 return aero;
