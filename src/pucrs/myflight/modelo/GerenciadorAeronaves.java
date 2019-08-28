@@ -9,17 +9,22 @@ public class GerenciadorAeronaves {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
     public void inserir_aeroporto(Aeronave aero) {
         aeronaves.add(aero);
+=======
+    public void adicionar(Aeronave aviao) {
+        aeronaves.add(aviao);
+>>>>>>> 1093cdec4978b8d977da5c0a7eaa17805ce94235
     }
 
-    public ArrayList<Aeronave> get_aero() {
+    public ArrayList<Aeronave> listarTodas() {
         return aeronaves;
     }
 
-    public Aeronave pesquisar(String codigo) {
+    public Aeronave buscaPorCodigo(String codigo) {
         for (Aeronave aero: aeronaves) {
             if(aero.getCodigo().compareTo(codigo)==0) {
                 return aero;

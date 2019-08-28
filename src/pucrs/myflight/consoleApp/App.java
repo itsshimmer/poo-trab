@@ -27,9 +27,9 @@ public class App {
 		}
 
 		CiaAerea c5 = cias.pesquisar("AA");
-		System.out.println(c4);
-		CiaAerea c6 = cias.pesquisar("JJ");
 		System.out.println(c5);
+		CiaAerea c6 = cias.pesquisar("JJ");
+		System.out.println(c6);
 		
 	}
 

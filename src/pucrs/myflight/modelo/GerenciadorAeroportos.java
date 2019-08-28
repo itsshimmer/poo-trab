@@ -8,17 +8,17 @@ public class GerenciadorAeroportos {
         aeroportos = new ArrayList<>();
     }
 
-    public void inserir_aeroporto(Aeroporto aerop) {
-        aeroportos.add(aerop);
+    public void adicionar(Aeroporto aero) {
+        aeroportos.add(aero);
     }
 
-    public ArrayList<Aeroporto> get_aerop() {
+    public ArrayList<Aeroporto> listarTodos() {
         return aeroportos;
     }
 
-    public Aeroporto pesquisar(String codigo) {
+    public Aeroporto buscaPorCodigo(String cod) {
         for (Aeroporto aerop: aeroportos) {
-            if(aerop.getCodigo().compareTo(codigo)==0) {
+            if(aerop.getCodigo().compareTo(cod)==0) {
                 return aerop;
             }
         }

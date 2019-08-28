@@ -1,5 +1,5 @@
 package pucrs.myflight.modelo;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class GerenciadorVoos {
@@ -10,17 +10,17 @@ public class GerenciadorVoos {
     }
 
 
-    public void inserir_aeroporto(Voo voo) {
+    public void adicionar(Voo voo) {
         voos.add(voo);
     }
 
-    public ArrayList<Voo> get_aero() {
+    public ArrayList<Voo> listarTodos() {
         return voos;
     }
 
-    public Voo buscar_datas(LocalDate data) {
+    public Voo buscarData(LocalDateTime data) {
         for (Voo voo : voos) {
-            if (voo.getDatahora()..compareTo(codigo) == 0) {
+            if (voo.getDatahora().compareTo(data) == 0) {
                 return voo;
             }
         }
