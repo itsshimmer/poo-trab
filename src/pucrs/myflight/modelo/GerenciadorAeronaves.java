@@ -8,10 +8,6 @@ public class GerenciadorAeronaves {
         aeronaves = new ArrayList<>();
     }
 
-    public void inserir_aeroporto(Aeronave aero) {
-        aeronaves.add(aero);
-    }
-    
     public void adicionar(Aeronave aviao) {
         aeronaves.add(aviao);
     }
@@ -28,5 +24,6 @@ public class GerenciadorAeronaves {
         }
         return null;
     }
+
 }
 
