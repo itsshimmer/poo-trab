@@ -15,12 +15,9 @@ public class CiaAerea {
 
 	public String getNome() {
 		return nome;
-<<<<<<< HEAD
 	}	
 
 	public String toString(){
 		return codigo + " " + nome;
-=======
->>>>>>> 1093cdec4978b8d977da5c0a7eaa17805ce94235
 	}
 }
