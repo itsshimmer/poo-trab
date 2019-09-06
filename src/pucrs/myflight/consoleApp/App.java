@@ -1,5 +1,8 @@
 package pucrs.myflight.consoleApp;
 
+import pucrs.myflight.modelo.CiaAerea;
+import pucrs.myflight.modelo.GerenciadorCias;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -15,17 +18,17 @@ public class App {
 		System.out.println("C3:" + c3.toString());
 
 		GerenciadorCias cias = new GerenciadorCias();
-		cias.inserir(c1);
-		cias.inserir(c2);
-		cias.inserir(c3);
+		cias.adicionar(c1);
+		cias.adicionar(c2);
+		cias.adicionar(c3);
 
-		for(CiaAerea c : cias.getCias()){
+		for(CiaAerea c : cias.listarTodas()){
 			System.out.println(c);
 		}
 
-		CiaAerea c5 = cias.pesquisar("AA");
+		CiaAerea c5 = cias.buscarCodigo("AA");
 		System.out.println(c5);
-		CiaAerea c6 = cias.pesquisar("JJ");
+		CiaAerea c6 = cias.buscarCodigo("JJ");
 		System.out.println(c6);
 	}
 }
