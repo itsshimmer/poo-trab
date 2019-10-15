@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79a5b9bb-c3ec-4832-b21d-4b473d5e8770" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooVariasEscalas.java" afterDir="false" />
+    <list default="true" id="f8aee5df-ff3d-4a4b-a219-c233dbc53be9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooDireto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Voo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooEscalas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooEscalas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooVariasEscalas.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,35 +16,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1QRpLC69CPAlsHYXbfr2ayCLrs6" />
+  <component name="ProjectId" id="1Q4LnpsczWuYOuRnkRSy0HO6pR6" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../joao/ExercicioVendas" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,12 +54,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79a5b9bb-c3ec-4832-b21d-4b473d5e8770" name="Default Changelist" comment="" />
-      <created>1567743204364</created>
+      <changelist id="f8aee5df-ff3d-4a4b-a219-c233dbc53be9" name="Default Changelist" comment="" />
+      <created>1567009166674</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567743204364</updated>
-      <workItem from="1567743208461" duration="2784000" />
+      <updated>1567009166674</updated>
+      <workItem from="1567009168477" duration="39000" />
+      <workItem from="1567025109167" duration="798000" />
+      <workItem from="1570565459660" duration="189000" />
+      <workItem from="1570565736491" duration="1243000" />
+      <workItem from="1570654039358" duration="47000" />
+      <workItem from="1571158629707" duration="6217000" />
+      <workItem from="1571168373435" duration="803000" />
     </task>
     <servers />
   </component>
@@ -84,10 +77,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
