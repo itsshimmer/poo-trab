@@ -1,5 +1,8 @@
 package pucrs.myflight.modelo;
+
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class GerenciadorRotas {
     private ArrayList<Rota> rotas;
@@ -34,5 +37,29 @@ public class GerenciadorRotas {
         }
         return null;
     }
+
+    public void ordenaNome(){
+        Collections.sort(rotas);
+    }
+
+    public void ordenaCia() {
+        rotas.sort(
+                Comparator.comparing((Rota r) -> r.getCia().getNome())
+        );
+    }
+
+    public void ordenaOrigem() {
+        rotas.sort(
+                Comparator.comparing(((Rota r) -> r.getOrigem().getNome()))
+        );
+    }
+
+    public void ordenaOrigemCia() {
+        rotas.sort (
+                Comparator.comparing((Rota r) -> r.getOrigem().getNome()).thenComparing((Rota r) -> r.getCia().getNome())
+        );
+    }
+
+
 
 }

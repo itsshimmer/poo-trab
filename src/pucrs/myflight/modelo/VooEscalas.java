@@ -9,40 +9,42 @@ public class VooEscalas extends Voo {
     private ArrayList<Rota> rotas;
 
 
-    public VooEscalas( Rota rotaFinal, LocalDateTime datahora) {
+    public VooEscalas(ArrayList<Rota> conexoes, LocalDateTime datahora) {
         super(datahora);
-        this.rotaFinal = rotaFinal;
-        this.rotas =  new ArrayList<>();
+        this.rotas = conexoes;
     }
 
-    public Rota getRotaFinal() {
-        return rotaFinal;
-    }
 
-    public void setRotaFinal(Rota rotaFinal) {
-        this.rotaFinal = rotaFinal;
-    }
-
-    public void adicionarRota(Rota rota){
-        rotas.add(rota);
-    }
-
-    public ArrayList<Rota> getRotas(){
-        return rotas;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString() + " -> " + rotaFinal;
-    }
 
     @Override
     public Duration getDuracao() {
-        return null;
+        Duration aux = Duration.ofMinutes(0);
+        for (int i = 0; i < rotas.size(); i++){
+            aux.plus(Duration.ofMinutes((long) Geo.distancia(rotas.get(i).getOrigem().getLocal(), rotas.get(i).getDestino().getLocal()) / 805));
+            aux.plus(Duration.ofMinutes(30));
+        }
+
+        return aux;
+    }
+
+    public void setRotaFinal(){
+        this.rotaFinal = new Rota (rotas.get(0).getCia(), rotas.get(0).getOrigem(), rotas.get(rotas.size()).getDestino(), rotas.get(0).getAeronave());
     }
 
     @Override
     public Rota getRota() {
-        return null;
+        return rotaFinal;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+
+        s.append(this.getClass());
+        return s.toString();
+    }
+
+
+
+
 }

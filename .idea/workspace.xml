@@ -2,19 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8aee5df-ff3d-4a4b-a219-c233dbc53be9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooDireto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/consoleApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/consoleApp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Aeronave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Aeronave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Aeroporto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Aeroporto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/CiaAerea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/CiaAerea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Geo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorAeronaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorAeronaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorAeroportos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorAeroportos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorCias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorCias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorRotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorRotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorVoos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/GerenciadorVoos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Rota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Rota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/Voo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooDireto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooDireto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooEscalas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooEscalas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pucrs/myflight/modelo/VooVariasEscalas.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +42,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../joao/ExercicioVendas" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joao victor\Desktop\poo-trab\MyFlight-base\.idea" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,7 +85,15 @@
       <workItem from="1570565736491" duration="1243000" />
       <workItem from="1570654039358" duration="47000" />
       <workItem from="1571158629707" duration="6217000" />
-      <workItem from="1571168373435" duration="803000" />
+      <workItem from="1571168373435" duration="5485000" />
+      <workItem from="1571943737533" duration="11401000" />
+      <workItem from="1572368192683" duration="5366000" />
+      <workItem from="1572455593426" duration="3596000" />
+      <workItem from="1572628705202" duration="745000" />
+      <workItem from="1572979479284" duration="158000" />
+      <workItem from="1572979657686" duration="97000" />
+      <workItem from="1572979782243" duration="7000" />
+      <workItem from="1573066066986" duration="1877000" />
     </task>
     <servers />
   </component>

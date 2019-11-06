@@ -1,16 +1,16 @@
 package pucrs.myflight.modelo;
 
-public class Rota {
+public class Rota implements Comparable<Rota>{
 	private CiaAerea cia;
 	private Aeroporto origem;
 	private Aeroporto destino;
 	private Aeronave aeronave;
-	
+
 	public Rota(CiaAerea cia, Aeroporto origem, Aeroporto destino, Aeronave aeronave) {
 		this.cia = cia;
 		this.origem = origem;
 		this.destino = destino;
-		this.aeronave = aeronave;		
+		this.aeronave = aeronave;
 	}
 
 	public CiaAerea getCia() {
@@ -43,5 +43,11 @@ public class Rota {
 
 	public void setAeronave(Aeronave aeronave) {
 		this.aeronave = aeronave;
+	}
+
+
+	@Override
+	public int compareTo(Rota t) {
+		return (this.getCia().getNome().compareTo(t.getCia().getNome()));
 	}
 }

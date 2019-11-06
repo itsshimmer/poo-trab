@@ -15,11 +15,26 @@ public class VooDireto extends Voo {
 
     @Override
     public Duration getDuracao() {
-        return null;
+
+
+        Duration aux = Duration.ofMinutes(30 + ((long) Geo.distancia(rota.getOrigem().getLocal(), rota.getDestino().getLocal()) / 805));
+        return aux;
     }
 
     @Override
     public Rota getRota() {
         return rota;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+
+        s.append(getDuracao());
+        s.append("\n");
+        s.append(getDatahora());
+        return s.toString();
+    }
+
+
 }
